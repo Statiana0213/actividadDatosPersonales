@@ -12,7 +12,7 @@
 	
 
 
-	$sql = "INSERT INTO estudiante VALUES ( '$pNombre', '$sNombre', '$pApellido', '$sApellido', '$edad','$ciudad','$passwordHash')";
+	$sql = "INSERT INTO datospersonales VALUES ( '$pNombre', '$sNombre', '$pApellido', '$sApellido', '$edad','$ciudad','$passwordHash')";
 	if(mysqli_query($conexion, $sql)) {
 		
 		echo "<script>alert('La cuenta del estudiante ha sido creada exitosamente.');</script> ";

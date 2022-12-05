@@ -59,58 +59,60 @@
 											<div class="col-12">
 												<h5>Datos Personales</h5>
 												<center>
+
 													<table border="5"bgcolor="#E0F1F3" width="600" class="clase_table">
 														<tr>
 															<td align="center">
 																<div class="container">
-																	<br>
-																	<div for="txt_pNombre"><b>Primer Nombre:</b>
-																		<input type="text" name="txt_pNombre" id="txt_pNombre" >
-																	</div>
+																	<td>
+																	<form action="./añadir.php" method="POST">
+																		<a href="añadir.php"  class="btn btn-success"> Añadir </a>
+																		</td>
+																		<td >
+																			<button data-mdb-ripple-duration="10s" type="button" class="btn btn-primary btn-lg">Modificar </button>
+																		</td>
+																		<td >
+																			<button data-mdb-ripple-duration="10s" type="button" class="btn btn-primary btn-lg">Eliminar </button>
+																		</td>
+																		<br>
+																		<div for="txt_pNombre"><b>Primer Nombre:</b>
+																			<input type="text" name="txt_pNombre" id="txt_pNombre" >
+																		</div>
 
-																	<br>
+																		<br>
 
-																	<div for="txt_sNombre"><b>Segundo Nombre:</b>
-																		<input type="text" name="txt_sNombre" id="txt_sNombre" >
-																	</div>
+																		<div for="txt_sNombre"><b>Segundo Nombre:</b>
+																			<input type="text" name="txt_sNombre" id="txt_sNombre" >
+																		</div>
 
-																	<br>
+																		<br>
 
-																	<div for="txt_pApellido"><b>Primer Apellido:</b>
-																		<input type="text" name="txt_pApellido" id="txt_pApellido" >
-																	</div>
+																		<div for="txt_pApellido"><b>Primer Apellido:</b>
+																			<input type="text" name="txt_pApellido" id="txt_pApellido" >
+																		</div>
 
-																	<br>
+																		<br>
 
-																	<div for="txt_sApellido"><b>Segundo Apellido:</b>
-																		<input type="text" name="txt_sApellido" id="txt_sApellido" >
-																	</div>
+																		<div for="txt_sApellido"><b>Segundo Apellido:</b>
+																			<input type="text" name="txt_sApellido" id="txt_sApellido" >
+																		</div>
 
-																	<br>
+																		<br>
 
-																	<div for="txt_edad"><b>Edad:</b> <br>
-																		<input type="number" name="txt_edad" id="txt_edad" >
-																	</div>
+																		<div for="txt_edad"><b>Edad:</b> <br>
+																			<input type="number" name="txt_edad" id="txt_edad" >
+																		</div>
 
-																	<br>
+																		<br>
 
-																	<div for="txt_ciudad"><b>Ciudad:</b>
-																		<input type="text" name="txt_ciudad" id="txt_ciudad" >
-																	</div>
+																		<div for="txt_ciudad"><b>Ciudad:</b>
+																			<input type="text" name="txt_ciudad" id="txt_ciudad" >
+																		</div>
 
-																	<br>
-																	<br>
+																		<br>
+																		<br>
+																	</form>	
 																</div>
-															</td>
-															<td>
-																<button data-mdb-ripple-duration="10s" type="button" class="btn btn-primary btn-lg">Añadir </button>
-
-															</td>
-															<td >
-																<button data-mdb-ripple-duration="10s" type="button" class="btn btn-primary btn-lg">Modificar </button>
-															</td>
-															<td >
-																<button data-mdb-ripple-duration="10s" type="button" class="btn btn-primary btn-lg">Eliminar </button>
 															</td>
 														</tr>
 													</table>
@@ -131,3 +133,9 @@
 	<script type="text/javascript" src="js/functions.js"></script>
 </body>
 </html>
+
+
+
+
+							
+								
