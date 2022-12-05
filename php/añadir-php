@@ -15,7 +15,7 @@
 	$sql = "INSERT INTO datospersonales VALUES ( '$pNombre', '$sNombre', '$pApellido', '$sApellido', '$edad','$ciudad','$passwordHash')";
 	if(mysqli_query($conexion, $sql)) {
 		
-		echo "<script>alert('La cuenta del estudiante ha sido creada exitosamente.');</script> ";
+		echo "<script>alert(se añadio exitosamente.');</script> ";
 	}else{
 		echo "Error" . $sql . "<br>" . mysqli_error($conexion);
 	}
