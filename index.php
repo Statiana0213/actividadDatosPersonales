@@ -59,22 +59,24 @@
 											<div class="col-12">
 												<h5>Datos Personales</h5>
 												<center>
-
+													<form action="./añadir.php" method="POST">	
 													<table border="5"bgcolor="#E0F1F3" width="600" class="clase_table">
 														<tr>
 															<td align="center">
 																<div class="container">
-																	<td>
-																	<form action="./añadir.php" method="POST">
-																		<a href="añadir.php"  class="btn btn-success"> Añadir </a>
+																		<td>
+																			<a href="añadir.php"  class="btn btn-primary btn-lg"> Añadir </a>
 																		</td>
 																		<td >
-																			<button data-mdb-ripple-duration="10s" type="button" class="btn btn-primary btn-lg">Modificar </button>
+																			<button  type="button" class="btn btn-primary btn-lg">Modificar </button>
 																		</td>
 																		<td >
-																			<button data-mdb-ripple-duration="10s" type="button" class="btn btn-primary btn-lg">Eliminar </button>
+																			<button type="button" class="btn btn-primary btn-lg">Eliminar </button>
 																		</td>
 																		<br>
+																		<td>
+																	
+																		
 																		<div for="txt_pNombre"><b>Primer Nombre:</b>
 																			<input type="text" name="txt_pNombre" id="txt_pNombre" >
 																		</div>
@@ -105,7 +107,7 @@
 
 																		<br>
 
-																		<div for="txt_ciudad"><b>Ciudad:</b>
+																		<div for="txt_ciudad"><b>Ciudad:</b> <br>
 																			<input type="text" name="txt_ciudad" id="txt_ciudad" >
 																		</div>
 
