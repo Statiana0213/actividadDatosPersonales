@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<html lang="en">
+<html lang="en"> 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -64,38 +64,38 @@
 															<td align="center">
 																<div class="container">
 																	<br>
-																	<div for="txt_nombre"><b>Primer Nombre:</b>
-																		<input type="text" name="txt_nombre" id="txt_nombre" >
+																	<div for="txt_pNombre"><b>Primer Nombre:</b>
+																		<input type="text" name="txt_pNombre" id="txt_pNombre" >
 																	</div>
 
 																	<br>
 
-																	<div for="txt_nombre"><b>Segundo Nombre:</b>
-																		<input type="text" name="txt_nombre" id="txt_nombre" >
+																	<div for="txt_sNombre"><b>Segundo Nombre:</b>
+																		<input type="text" name="txt_sNombre" id="txt_sNombre" >
 																	</div>
 
 																	<br>
 
-																	<div for="txt_nombre"><b>Primer Apellido:</b>
-																		<input type="text" name="txt_nombre" id="txt_nombre" >
+																	<div for="txt_pApellido"><b>Primer Apellido:</b>
+																		<input type="text" name="txt_pApellido" id="txt_pApellido" >
 																	</div>
 
 																	<br>
 
-																	<div for="txt_apellido"><b>Segundo Apellido:</b>
-																		<input type="text" name="txt_apellido" id="txt_apellido" >
+																	<div for="txt_sApellido"><b>Segundo Apellido:</b>
+																		<input type="text" name="txt_sApellido" id="txt_sApellido" >
 																	</div>
 
 																	<br>
 
-																	<div for="txt_nombre"><b>Edad:</b> <br>
-																		<input type="number" name="txt_nombre" id="txt_nombre" >
+																	<div for="txt_edad"><b>Edad:</b> <br>
+																		<input type="number" name="txt_edad" id="txt_edad" >
 																	</div>
 
 																	<br>
 
-																	<div for="txt_nombre"><b>Ciudad:</b>
-																		<input type="text" name="txt_nombre" id="txt_nombre" >
+																	<div for="txt_ciudad"><b>Ciudad:</b>
+																		<input type="text" name="txt_ciudad" id="txt_ciudad" >
 																	</div>
 
 																	<br>
