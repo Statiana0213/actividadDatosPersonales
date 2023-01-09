@@ -88,7 +88,7 @@
                             </div>
                           </div>
                         </div>
-                        
+
                         <?php
 
                         include '../../bd/conexion.php';
@@ -108,57 +108,58 @@
                         primerApellido = '$pApellido',
                         segundoApellido = '$sApellido',
                         edad = '$edadUs',
-                        ciudad = '$ciudadUs',
+                        ciudad = '$ciudadUs'
                         where idCategoria = '$id'";
 
-                        
+
 
                         if($conexion->query($sql) === TRUE) {
                           echo('
-                            
+                            <!-- Main content -->
                             <section class="content">
-                            <div class="row">
-                            
-                            <div class="col-md-12">
-                            
-                            <div class="card card-success">
-                            <div class="card-header">
-                            <h3 class="card-title"> Operación exitosa </h3>
-                            </div>
-                            
-                            </div>
-                            
-                            </div>
-                            </div>      
+                              <div class="row">
+                                <!-- left column -->
+                                <div class="col-md-12">
+                                  <!-- general form elements -->
+                                  <div class="card card-success">
+                                    <div class="card-header">
+                                      <h3 class="card-title"> Operación exitosa </h3>
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <!-- form start -->  
+                                  </div>
+                                  <!-- /.card -->
+                                </div>
+                              </div>      
                             </section>
-                            ');
+                          ');
                         }
                         else{
                           echo('
                             <!-- Main content -->
                             <section class="content">
-                            <div class="row">
-                            <!-- left column -->
-                            <div class="col-md-12">
-                            <!-- general form elements -->
-                            <div class="card card-danger">
-                            <div class="card-header">
-                            <h3 class="card-title"> Operación fallida </h3>
-                            </div>
-                            <!-- /.card-header -->
-                            <!-- form start -->  
-                            </div>
-                            <!-- /.card -->
-                            </div>
-                            </div>      
+                              <div class="row">
+                                <!-- left column -->
+                                <div class="col-md-12">
+                                  <!-- general form elements -->
+                                  <div class="card card-danger">
+                                    <div class="card-header">
+                                      <h3 class="card-title"> Operación fallida </h3>
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <!-- form start -->  
+                                  </div>
+                                  <!-- /.card -->
+                                </div>
+                              </div>      
                             </section>
-                            ');
+                          ');
                         }
-                          mysqli_close($conexion);  // Cierra la conexion
+                        mysqli_close($conexion);  // Cierra la conexion
 
                           ?>
 
-                          
+
                         </div>
                       </div>
                     </div>
@@ -170,7 +171,13 @@
         </div>
       </div>
     </div> 
-
+<script src="../../plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- bs-custom-file-input -->
+  <script src="../../plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="../../dist/js/adminlte.min.js"></script>
 
   </body>
   </html>
